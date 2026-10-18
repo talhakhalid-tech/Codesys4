@@ -1,0 +1,9 @@
+# .gitignore file for CODESYS 4 projects
+.compileContexts/
+.library-cache/
+.intermediate/
+.bootapp/
+*.fbsws.user/
+.user/
+!.gitignore
+!.gitattributes
