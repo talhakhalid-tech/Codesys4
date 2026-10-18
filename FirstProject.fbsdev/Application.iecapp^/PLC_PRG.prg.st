@@ -1,6 +1,6 @@
 PROGRAM PLC_PRG
 VAR
-    xStart   : BOOL;        // set TRUE online to start blinking
+    xStart   : BOOL := TRUE;        // set TRUE online to start blinking
     tonBlink : TON;         // timer
     xLamp    : BOOL;        // toggles every 500 ms
     iCount   : INT;         // counts toggles
